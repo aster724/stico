@@ -13,6 +13,7 @@
 		vertical-align: baseline;
 	}
 
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1374,6 +1375,7 @@
 		margin-bottom: 1em;
 		color: 555;
 	}
+	p {text-align: justify;}
 
 	.homepage header {
 		letter-spacing: 0.10em;
@@ -1741,7 +1743,7 @@
 		font-size: 0.85em;
 		letter-spacing: 2px;
 		padding: 0.85em 2.75em 0.85em 2.75em;
-		color: #fff !important;
+		color: #e06c1f!important;
 		text-transform: uppercase;
 		text-decoration: none;
 		font-size: 1em;
@@ -1772,14 +1774,14 @@
 			}
 
 		.button:hover {
-			background: #1A8460;
+			background: #e06c1f;
 			border-color: #fff;
 			border-color: rgba(255, 255, 255, 0.4);
 			color: #FFF !important;
 		}
 
 		.button.style1:hover {
-			background: #fff;
+			background: #e06c1f;
 			color: #de577b !important;
 		}
 
@@ -1844,16 +1846,16 @@
 /* Header */
 
 	#header {
-		padding: 1.5em 0em 1em 0em;
+		padding: 1.5em 0em 0em 3em;
 	}
 
-		#header .container {
+		#header .img .container {
 			position: relative;
 		}
 
 /* Logo */
 
-	#logo h1 a {
+	#logo  h1 a {
 		position: absolute;
 		margin: 0;
 		top: 0.75em;
@@ -1896,7 +1898,7 @@
 	#nav {
 		position: absolute;
 		right: 0;
-		top: 1.5em;
+		top: 2em;
 	}
 
 		#nav > ul > li {
@@ -2050,21 +2052,22 @@
 		
 		#main .box h3 a{
 			color: #fff;
-			font-size: 2.5em;
+			font-size: 2em;
 		}
 		
 		#main p {
-			color: black;		
+			color: black;
+			font-size: 1.5em;		
 		}
 
 		#main .button {
-			border-color: #888;
+			border-color: #fff;
 			border-color: rgba(0, 0, 0, 0.8);
 			color: #000 !important;
 		}
 
 			#main .button:hover {
-				color: #FFF !important;
+				color: #e06c1f !important;
 			}
 			
 		#main h2 {
@@ -2111,9 +2114,9 @@
 	}
 
 		#content form input.text, #content form select, #content form textarea {
-			border-color: #ccc;
+			border-color: #e06c1f;
 			border-color: rgba(0, 0, 0, 0.2);
-			color: #4b4c4b;
+			color: #e06c1f;
 			color: black !important;
 		}
 
@@ -2126,16 +2129,16 @@
 			}
 
 		#content form .button {
-			border-color: #ccc;
+			border-color: #e06c1f;
 			border-color: rgba(0, 0, 0, 0.2);
-			color: #4b4c4b !important;
+			color: #e06c1f !important;
 			color: rgba(0, 0, 0, 0.8) !important;
 		}
 
 			#content form .button:hover {
-				background: #434343;
+				background: #e06c1f;
 				background: rgba(0, 0, 0, 0.8);
-				border-color: #434343;
+				border-color: #e06c1f;
 				border-color: rgba(0, 0, 0, 0.1);
 				color: #FFF !important;
 			}
@@ -2210,6 +2213,12 @@
 		position: relative;
 		padding: 2em 0em 1.5em 0em;
 		background: #1d509d;
+	}
+	#featuredo header{
+		position: relative;
+		/*padding: 2em 0em 1.5em 0em;*/
+		background: #1d509d;
+		color: #FFF;
 	}
 
 		#featured header {
@@ -2678,3 +2687,4 @@
 			}
 
 	}
+
