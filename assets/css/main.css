@@ -1307,7 +1307,7 @@
 
 	body {
 		background: #1d509d;
-		color: #1d509d;
+		color: black;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
@@ -1429,7 +1429,7 @@
 
 		.image img {
 			display: block;
-			width: 90%;
+			width: 100%;
 		}
 
 		.image.featured {
@@ -1737,13 +1737,13 @@
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 		display: inline-block;
-		background: none;
+		background: rgba(128, 128, 128, 0.34);
 		border: 2px solid #FFF;
 		border-radius: 8px;
 		font-size: 0.85em;
 		letter-spacing: 2px;
 		padding: 0.85em 2.75em 0.85em 2.75em;
-		color: #e06c1f!important;
+		color: black!important;
 		text-transform: uppercase;
 		text-decoration: none;
 		font-size: 1em;
@@ -1774,7 +1774,7 @@
 			}
 
 		.button:hover {
-			background: #e06c1f;
+			background: rgba(224, 191, 31, 0.96);
 			border-color: #fff;
 			border-color: rgba(255, 255, 255, 0.4);
 			color: #FFF !important;
@@ -1991,7 +1991,7 @@
 
 	#banner {
 		position: relative;
-		padding: 2em 0em 2em 0em;
+		padding: 1em 0em 1em 5em;
 		background: #FFF;
 		text-align: center;
 		color: #fff;
@@ -2678,7 +2678,9 @@
 
 					#footer .actions li {
 						text-align: center;
+
 					}
+
 
 		/* Featured */
 
